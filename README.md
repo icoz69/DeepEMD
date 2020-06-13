@@ -69,8 +69,8 @@ The following packages are required to run the scripts:
 
 - [tensorboard](https://www.tensorflow.org/tensorboard)
 ## Dataset
-Please click [here](https://drive.google.com/drive/folders/1sXJgi9pXo8i3Jj1nk08Sxo6x7dAQjf9u?usp=sharing) for downloading the 
-following datasets.
+Please click the Google Drive [link](https://drive.google.com/drive/folders/1sXJgi9pXo8i3Jj1nk08Sxo6x7dAQjf9u?usp=sharing) for downloading the 
+following datasets, or running the downloading bash scripts in folder `datasets/` to download.
 
 ### MiniImageNet Dataset
 
@@ -201,10 +201,11 @@ Train DeepEMD-Sampling (9 patchs) with a pre-trained model for 1-shot 5-way task
 ## Download  Models
 
 
-[Pre-trained Models](https://drive.google.com/drive/folders/1ay3FJ4rv8slCt_NNAld2qdt9FTK1cVdT?usp=sharing)
+[Pre-trained Models](https://drive.google.com/file/d/1Prn7_41NVrZbnePAlSiKjD21Jlz0LKJM/view?usp=sharing)
+(or run `bash download_pretrain_model.sh`)
 
-[Meta-trained Models](https://drive.google.com/drive/folders/1PSq6fnDUwajoMixU9dLFQ0OrqFjSq6Wm?usp=sharing)
-
+[Meta-trained Models](https://drive.google.com/file/d/1lGcNHMRnBrjODDmt647RzMJ5cLCd4pmv/view?usp=sharing)
+(or run `bash download_trained_model.sh`)
 
 ## Acknowledgment
 Our project references the codes in the following repos.
