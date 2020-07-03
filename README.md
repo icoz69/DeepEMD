@@ -2,6 +2,8 @@
 
 The code repository for [DeepEMD: Few-Shot Image Classification with Differentiable Earth Mover's Distance and Structured Classifiers](https://arxiv.org/pdf/2003.06777v2.pdf)" (CVPR 2020 oral) and"[DeepEMD: Differentiable Earth Mover's Distance for Few-Shot Learning](https://arxiv.org/pdf/2003.06777.pdf)" (Extension) in PyTorch. 
 
+**DeepEMD achieves new state-of-the-art performance on five few-shot learning benchmarks with significant advantages (up to 7%). The result is obtained without using any extra data for training or testing (tranductive setting).**
+
 If you use the code in this repo for your work, please cite the following bib entries:
 
     @InProceedings{Zhang_2020_CVPR,
