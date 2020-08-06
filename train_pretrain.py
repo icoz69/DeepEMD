@@ -53,9 +53,6 @@ num_gpu = set_gpu(args)
 set_seed(args.seed)
 
 dataset_name = args.dataset
-if 'NAS' in dataset_name:
-    dataset_name = dataset_name + '-%.3f' % (args.nas_split)
-
 args.save_path = 'pre_train/%s/%d-%.4f-%d-%.2f/' % \
                  (dataset_name, args.bs, args.lr, args.step_size, args.gamma)
 args.save_path = osp.join('checkpoint', args.save_path)
