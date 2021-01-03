@@ -94,7 +94,7 @@ TieredImageNet is also a subset of ImageNet, which includes 608 classes from 34 
 CUB was originally proposed for fine-grained bird classification, which contains 11,788 images from 200 classes. We follow the splits in [FEAT](https://github.com/Sha-Lab/FEAT) that 200 classes are divided into 100, 50 and 50 for meta-training, meta-validation and meta-testing, respectively.
 
 ### FC100 Dataset
-FC100 is a few-shot classification dataset built on CIFAR100. We follow the split division proposed in [TADAM](https://papers.nips.cc/paper/7352-tadam-task-dependent-adaptive-metric-for-improved-few-shot-learning.pdf), where 36 super-classes were divided into 12 (including 60 classes), 4 (including 20 classes), 4 (including 20 classes), for meta-training, meta-validation and meta-testing, respectively, and each class contains 100 images.
+FC100 is a few-shot classification dataset built on CIFAR100. We follow the split division proposed in [TADAM](https://papers.nips.cc/paper/7352-tadam-task-dependent-adaptive-metric-for-improved-few-shot-learning.pdf), where 36 super-classes were divided into 12 (including 60 classes), 4 (including 20 classes), 4 (including 20 classes), for meta-training, meta-validation and meta-testing, respectively, and each class contains 600 images.
 
 ### CIFAR-FS dataset (not in paper)
 CIFAR-FS was also built upon CIFAR100,proposed in [here](https://arxiv.org/pdf/1805.08136.pdf). It contains 64, 16, 20 classes for training, validation and testing.
