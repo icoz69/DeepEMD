@@ -79,8 +79,9 @@ The following packages are required to run the scripts:
 
 - [tensorboard](https://www.tensorflow.org/tensorboard)
 ## Dataset
-Please click the Google Drive [link](https://drive.google.com/drive/folders/1sXJgi9pXo8i3Jj1nk08Sxo6x7dAQjf9u?usp=sharing) for downloading the 
+Please click the Google Drive [link](https://drive.google.com/drive/folders/1sXJgi9pXo8i3Jj1nk08Sxo6x7dAQjf9u?usp=sharing) or [Baidu Drive (uk3o)](https://pan.baidu.com/s/17hbnrRhM1acpcjR41P3J0A) for downloading the 
 following datasets, or running the downloading bash scripts in folder `datasets/` to download.
+
 
 ### MiniImageNet Dataset
 
