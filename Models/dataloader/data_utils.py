@@ -8,7 +8,7 @@ def set_up_datasets(args):
         elif args.deepemd == 'grid':
             from Models.dataloader.miniimagenet.grid.mini_imagenet import MiniImageNet as Dataset
     elif args.dataset == 'cub':
-        args.num_class = 64
+        args.num_class = 100
         if args.deepemd == 'fcn':
             from Models.dataloader.cub.fcn.cub import CUB as Dataset
         elif args.deepemd == 'sampling':
