@@ -6,7 +6,7 @@ PyTorch implementation of
 
 and
 
-"[DeepEMD v2: Differentiable Earth Mover's Distance for Few-Shot Learning](https://arxiv.org/pdf/2003.06777.pdf)" (Extension). 
+"[DeepEMD v2: Differentiable Earth Mover's Distance for Few-Shot Learning](https://arxiv.org/pdf/2003.06777.pdf)" (TPAMI Extension). 
 
 **DeepEMD achieves new state-of-the-art performance on five few-shot learning benchmarks with significant advantages (up to 7%). The result is obtained without using any extra data for training or testing (tranductive setting).**
 
